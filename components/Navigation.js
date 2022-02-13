@@ -8,12 +8,45 @@ const Navigation = () => {
             <div className="container flex items-center justify-between px-4 mx-auto lg:max-w-4xl">
                 <Link href="/">
                     <a
-                        className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"}
+                        className={"font-medium tracking-wider  text-gray-900  uppercase dark:text-white"}
                     >
                         Laura Frémy
                     </a>
                 </Link>
-                <ThemeSwitch />
+                <div>
+                    <Link href="/">
+                        <a
+                            className={"font-medium tracking-wider  text-gray-900   dark:text-white mr-6"}
+                        >
+                            About
+                        </a>
+                    </Link>
+
+                    <Link href="/stack">
+                        <a
+                            className={"font-medium tracking-wider  text-gray-900   dark:text-white mr-6"}
+                        >
+                            Stack
+                        </a>
+                    </Link>
+
+                    <Link href="/projects">
+                        <a
+                            className={"font-medium tracking-wider  text-gray-900   dark:text-white mr-6"}
+                        >
+                            Projets
+                        </a>
+                    </Link>
+                    <Link href="/blog">
+                        <a
+                            className={"font-medium tracking-wider  text-gray-900   dark:text-white mr-6"}
+                        >
+                            Blog
+                        </a>
+                    </Link>
+                    <ThemeSwitch />
+                </div>
+
             </div>
         </div>
     )

@@ -15,6 +15,7 @@ const Footer = () => {
                             rel="noreferrer"
                         >
                             LinkedIn
+
                         </a>
                         <a
                             href="#"
